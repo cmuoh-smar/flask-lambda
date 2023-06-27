@@ -1,14 +1,9 @@
 from setuptools import setup
 
-
-with open('README.rst') as f:
-    long_description = f.read()
-
 setup(
     name='flask-lambda-python36',
     version='0.1.1',
     description=('Python3.6+ module to make Flask compatible with AWS Lambda'),
-    long_description=long_description,
     keywords='flask aws amazon lambda',
     author='Andrew Griffiths',
     author_email='mail@andrewgriffithsonline.com',
